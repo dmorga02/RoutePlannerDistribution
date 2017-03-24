@@ -1,0 +1,163 @@
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: Invalid input map file, XML is not formatted correctly.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: makeNodes threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: makeNodes threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: getLineFromString threw exception: RoutePlannerException with the message: Target line does not exist
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: Invalid input map file, XML is not formatted correctly.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: makeNodes threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: makeNodes threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: getLineFromString threw exception: RoutePlannerException with the message: Target line does not exist
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: Invalid input map file, XML is not formatted correctly.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: makeNodes threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: makeNodes threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: getLineFromString threw exception: RoutePlannerException with the message: Target line does not exist
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: Invalid input map file, XML is not formatted correctly.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoute threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: makeNodes threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: makeNodes threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The Network File is Invalid or cannot be read.
+WARN - Method: getLineFromString threw exception: RoutePlannerException with the message: Target line does not exist
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The NetWork File is Invalid
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: Invalid input map file, XML is not formatted correctly.
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The NetWork File is Invalid
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: Invalid input map file, XML is not formatted correctly.
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: The NetWork File is Invalid
+WARN - Method: getNetworkData threw exception: RoutePlannerException with the message: Invalid input map file, XML is not formatted correctly.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Starting point is not connected to end point.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: No source or destination was provided.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Source is the destination.
+WARN - Method: setNumOfStops threw exception: RoutePlannerException with the message: The number of stops for a transfer can not be less than one.
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: The number of stops for a transfer can not be less than one.
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: setNumOfStops threw exception: RoutePlannerException with the message: The number of stops for a transfer can not be less than one.
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: The number of stops for a transfer can not be less than one.
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: setNumOfStops threw exception: RoutePlannerException with the message: The number of stops for a transfer can not be less than one.
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: The number of stops for a transfer can not be less than one.
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node has no connection to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node or destination node is null.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node is equal to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node has no connection to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node or destination node is null.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node is equal to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node has no connection to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node or destination node is null.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node is equal to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node has no connection to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node or destination node is null.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node is equal to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node has no connection to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node or destination node is null.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node is equal to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node has no connection to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node or destination node is null.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node is equal to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node has no connection to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node or destination node is null.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node is equal to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node has no connection to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node or destination node is null.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node is equal to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node has no connection to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node or destination node is null.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node is equal to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node has no connection to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node or destination node is null.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node is equal to destination node.
+WARN - Method: getPathCost threw exception: RoutePlannerException with the message: Two consecutive nodes in this path are not connected.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node has no connection to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node or destination node is null.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node is equal to destination node.
+WARN - Method: getPathCost threw exception: RoutePlannerException with the message: Path given has consecutive nodes that are the same.
+WARN - Method: setNumOfStops threw exception: RoutePlannerException with the message: The number of stops for a transfer can not be less than one.
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: The number of stops for a transfer can not be less than one.
+WARN - Method: showTransfers threw exception: RoutePlannerException with the message: There is no route
+WARN - Method: setLineHolder threw exception: RoutePlannerException with the message: LineHolder cannot be null
+WARN - Method: displayTransfer threw exception: RoutePlannerException with the message: Null argument passed in.
+WARN - Method: displayTransfer threw exception: RoutePlannerException with the message: Path in route is empty.
+WARN - Method: displayTransfer threw exception: RoutePlannerException with the message: Path in route is empty.
+WARN - Method: getPathCost threw exception: RoutePlannerException with the message: Two consecutive nodes in this path are not connected.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node has no connection to destination node.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node or destination node is null.
+WARN - Method: getRoutes threw exception: RoutePlannerException with the message: Error: Start node is equal to destination node.
+WARN - Method: getPathCost threw exception: RoutePlannerException with the message: Path given has consecutive nodes that are the same.

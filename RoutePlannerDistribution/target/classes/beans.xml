@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-3.1.xsd
+	http://www.springframework.org/schema/util
+	http://www.springframework.org/schema/util/spring-util-3.1.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+	http://www.springframework.org/schema/mvc
+	http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd">
+
+	<aop:aspectj-autoproxy proxy-target-class="true" />
+
+	<bean id="IPathAlgorithm" class="com.fdmgroup.routePlanner.algorithm.KPathAlgorithm"
+		scope="prototype">
+		<property name="incompletePaths" ref="aList"></property>
+		<property name="maxRoutes" value="1"></property>
+	</bean>
+
+	<bean id="transferGenerator" class="com.fdmgroup.routePlanner.transfers.TransferGenerator"
+		scope="prototype">
+		<property name="lineHolder" ref="lineHolder"></property>
+	</bean>
+
+	<bean id="lineCreator" class="com.fdmgroup.routePlanner.data.LineCreator">
+		<property name="reader" ref="lineDataReader"></property>
+	</bean>
+	<bean id="nodeCreator" class="com.fdmgroup.routePlanner.data.NodeCreator">
+		<property name="reader" ref="lineDataReader"></property>
+	</bean>
+
+	<bean id="transferCalculator" class="com.fdmgroup.routePlanner.transfers.TransferCalculator"
+		scope="prototype" />
+	<bean id="nodeHolder" class="com.fdmgroup.routePlanner.data.NodeHolder" />
+	<bean id="lineHolder" class="com.fdmgroup.routePlanner.data.LineHolder" />
+	<bean id="transfer" class="com.fdmgroup.routePlanner.transfers.SubwayTransfer"
+		scope="prototype" />
+	<bean id="line" class="com.fdmgroup.routePlanner.lines.SubwayLine"
+		scope="prototype" />
+	<bean id="route" class="com.fdmgroup.routePlanner.routes.Route"
+		scope="prototype"></bean>
+
+	<bean id="lineDataReader" class="com.fdmgroup.routePlanner.data.LineDataReader"
+		scope="prototype" />
+	<bean id="propertiesReader" class="com.fdmgroup.routePlanner.properties.PropertiesReader"
+		scope="prototype" />
+	<bean id="node" class="com.fdmgroup.routePlanner.nodes.Station"
+		scope="prototype">
+		<property name="adjacentNodes" ref="hMap"></property>
+	</bean>
+
+
+	<bean id="aList" class="java.util.ArrayList" scope="prototype">
+	</bean>
+
+	<bean id="lList" class="java.util.LinkedList" scope="prototype">
+	</bean>
+
+	<bean id="hMap" class="java.util.HashMap" scope="prototype">
+	</bean>
+
+	<bean id="tMap" class="java.util.TreeMap" scope="prototype">
+	</bean>
+
+	<bean id="hSet" class="java.util.HashSet" scope="prototype">
+	</bean>
+
+</beans>

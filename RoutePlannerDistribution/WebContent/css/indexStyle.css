@@ -1,0 +1,337 @@
+body {
+	margin: 0;
+	font-family: Century Gothic, sans-serif;
+	background-color: #333;
+}
+
+label,header,footer, .routeHeader, #moreButton, #moreNumber, #expandToggle {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+header {
+	width: 100%;
+	height: 35px;
+	background-color: rgba(100, 100, 100, .8);
+	position: absolute;
+	z-index: 2;
+	min-width: 1080px;
+	text-align:center;
+}
+
+#main {
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	height: 820px;
+	width: 1080px;
+	margin: 0 auto;
+	position: absolute;
+}
+
+#routes {
+	top: 80px;
+	right: 30px;
+	width: 450px;
+	height: 600px;
+	background-color: rgba(255, 255, 255, .8);
+	z-index: 2;
+	position: absolute;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px #CCC;
+	border: solid rgba(0, 0, 0, .2) 1px;
+	overflow-x: hidden;
+	overflow: auto;
+	padding-top: 10px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+#routes::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#routes::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#routes::-webkit-scrollbar-thumb {
+	background-color: #AAA;
+	border-radius: 10px;
+	background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .2) 25%,
+		transparent 25%, transparent 50%, rgba(0, 0, 0, .2) 50%,
+		rgba(0, 0, 0, .2) 75%, transparent 75%, transparent)
+}
+
+#optionContainer {
+	top: 60px;
+	left: 30px;
+	height: 175px;
+	width: 450px;
+	background-color: rgba(255, 255, 255, .9);
+	z-index: 2;
+	position: absolute;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px #CCC;
+	border: solid rgba(0, 0, 0, .2) 1px;
+	padding: 25px;
+	padding-bottom: 35px;
+	text-align: center;
+	margin: 20px auto 10px auto;
+	font-weight: bold;
+}
+
+#optionContainer label {
+	text-align: left;
+	text-transform: uppercase;
+	display: block;
+	clear: both;
+	font-size: 20px;
+	color: rgba(255, 0, 0, .5);
+	background-color: rgba(0, 0, 0, 0);
+	margin-bottom: 3px;
+}
+
+#optionContainer select {
+	display: block;
+	clear: both;
+	border: none;
+	margin: 0 auto 10px auto;
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	color: #999;
+	border: solid rgba(204, 204, 204, .75) 1px;
+	outline: none;
+	z-index: 10;
+	-webkit-appearance: none;
+	appearance: none;
+	background-image: url('../images/arrow.png');
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: 422px 50%;
+}
+
+#optionContainer select option {
+	color: #777;
+}
+
+footer {
+	width: 100%;
+	padding-top: 25px;
+	height: 35px;
+	background-color: #333;
+	color: #EEE;
+	text-align: center;
+	min-width: 1080px;
+	font-style: italic;
+}
+
+#headerMessage {
+	top: 7px;
+	color: white;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#messageBox {
+	display: none;
+	font-size: 12px;
+	color: red;
+	transition: display 0.5s;
+	-webkit-transition: display 0.5s;
+	float: left;
+	margin-top: 12px;
+	font-weight: normal;
+}
+
+#routesButton {
+	padding: 5px 15px;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FFF;
+	outline: none;
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+	transform: translate(0px, 5px);
+	-webkit-transform: translate(0px, 5px);
+	float: right;
+}
+
+#routesButton:hover {
+	cursor: pointer;
+}
+
+#routesButton:active {
+	border-bottom: 1px solid;
+}
+
+.routeOption {
+	margin-bottom: 2px;
+}
+
+.routeStep {
+	background-color: rgba(200, 200, 200, .3);
+	margin-bottom: 2px;
+	padding: 20px 10px 25px 10px;
+	font-size: 14px;
+	position: relative;
+	color:#777;
+}
+
+.routeHeader {
+	width: 225px;
+	border-right: solid red 3px;
+	background-color: #DDD;
+	box-shadow: 0px -3px 7px #CCC inset;
+	color: #888;
+	font-weight: bold;
+	padding: 5px 5px;
+	transition: all .3s;
+	cursor: pointer;
+}
+
+.routeHeader:hover {
+	border-right: solid green 3px !important;
+	width: 420px !important;
+}
+
+.routeDropdown {
+	background-color: white;
+}
+
+.startPoint {
+	color: rgba(0,140,0,1);
+	font-weight: bold;
+}
+
+.endPoint {
+	color: rgba(190,0,0,1);
+	font-weight: bold;
+}
+
+#startToDestination {
+	text-align: center;
+	background-color: rgba(240, 240, 240, .8);
+	box-shadow: 0px 0px 100px white inset;
+	margin: 20px 0px;
+	padding: 10px 10px;
+	border-top: solid #AAA 1px;
+	border-bottom: solid #AAA 1px;
+	z-index: 3;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: grey;
+}
+
+#headStart,#headDestination {
+	font-size: 18px;
+	clear: both;
+	color: #888;
+	width: 100%;
+	text-align: left;
+	display: block;
+}
+
+#headDestination {
+	text-align: right;
+}
+
+#scroll {
+	min-width: 1080px;
+	height: 850px;
+	background-color: white;
+	overflow: hidden;
+	background-image: url('../images/grain.jpg');
+}
+
+#backgroundPan {
+	width: 4000px;
+	opacity: .2;
+	z-index: 1;
+	margin-top: -275px;
+	margin-left: -200px;
+}
+
+.initialRouteText {
+	position: relative;
+	top: 20px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	color: rgba(105, 105, 105, .6);
+	font-weight: bolder;
+}
+
+#logo {
+	margin-top: 4px;
+	margin-left: 4px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	background-color: rgba(255, 255, 255, .5);
+	display: inline-block;
+	padding: 0px 5px;
+	float: left;
+	cursor: default;
+}
+
+#fdm {
+	font-weight: bolder;
+	font-size: 22px;
+	color: white;
+}
+
+.toFrom {
+	color: rgba(255, 0, 0, .7);
+	font-size: 16px;
+}
+
+.numberOfTransfers {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	color: #777;
+}
+
+.hiddenRoutes{
+	display: none;
+}
+
+#moreButton, #moreNumber, #expandToggle{
+	margin: 16px 0px;
+	color:#999;
+	font-size:14px;
+}
+
+#moreButton:hover, #expandToggle:hover{
+	cursor:pointer;
+}
+
+#moreNumber{
+	margin-left:20px;
+}
+
+#expandHolder{
+width:95%;
+display:block;
+text-align:right;
+margin:0;
+margin-bottom:5px;
+}
